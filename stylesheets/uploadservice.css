@@ -1,99 +1,87 @@
-/* line 1, ../sass/uploadservice.scss */
-#logo {
-  position: relative;
-  width: 200px;
-  height: 100px;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-size: 50%;
-}
+/*
+Error: Undefined variable: "$horizontal-divider".
+        on line 87 of /Users/gijs/Desktop/uploadservice-redesign/sass/uploadservice.scss
 
-/* line 10, ../sass/uploadservice.scss */
-#organisation {
-  margin: 20px;
-}
-/* line 13, ../sass/uploadservice.scss */
-#organisation .organisation-title {
-  position: absolute;
-  top: 0;
-  left: 140px;
-  font-size: 2em;
-  font-weight: bold;
-  color: #027377;
-}
-/* line 22, ../sass/uploadservice.scss */
-#organisation .details {
-  position: absolute;
-  top: 35px;
-  left: 140px;
-  line-height: 20px;
-  padding: 10px 0 5px 0;
-}
-/* line 29, ../sass/uploadservice.scss */
-#organisation .details ul li {
-  font-size: .85em;
-}
-/* line 32, ../sass/uploadservice.scss */
-#organisation .details ul li a {
-  color: #027377;
-}
+82:     padding-top: 20px;
+83:   }
+84:   .project:last-child {
+85:     margin: 0 0 50px 0;
+86:     padding: 0 0 30px 0;
+87:     border-bottom: 1px solid $horizontal-divider;
+88:   }
+89: }
+90: 
+91: #project-slug {
+92: 
 
-/* line 38, ../sass/uploadservice.scss */
-#projects .project {
-  margin: 0 0 30px 0;
-}
-/* line 40, ../sass/uploadservice.scss */
-#projects .project p.project-title {
-  margin-top: 20px;
-}
-/* line 42, ../sass/uploadservice.scss */
-#projects .project p.project-title .fa {
-  color: #007276;
-  font-size: 1.4em;
-  margin: 0 5px 0 0;
-}
-/* line 48, ../sass/uploadservice.scss */
-#projects .project p.project-title a {
-  line-height: 2em;
-  font-size: 2.2em;
-  color: #007276;
-  text-decoration: none;
-}
-/* line 54, ../sass/uploadservice.scss */
-#projects .project p.project-description {
-  font-size: 1.1em;
-  color: #9D9D9D;
-}
-/* line 58, ../sass/uploadservice.scss */
-#projects .project p.project-age {
-  font-size: 1.1em;
-  font-style: italic;
-  color: #D1D1D1;
-}
-/* line 64, ../sass/uploadservice.scss */
-#projects .stats {
-  color: #007276;
-  padding: 30px;
-}
-/* line 67, ../sass/uploadservice.scss */
-#projects .stats ul {
-  display: inline;
-}
-/* line 69, ../sass/uploadservice.scss */
-#projects .stats ul li {
-  display: inline;
-  margin: 5px;
-  font-weight: bold;
-}
-/* line 78, ../sass/uploadservice.scss */
-#projects .project:not(:first-child) {
-  border-top: 1px solid #ECECEB;
-  margin-top: 20px;
-  padding-top: 20px;
-}
-/* line 83, ../sass/uploadservice.scss */
-#projects .project:last-child {
-  margin: 0 0 50px 0;
-  padding: 0 0 30px 0;
-  border-bottom: 1px solid #ECECEB;
-}
+Backtrace:
+/Users/gijs/Desktop/uploadservice-redesign/sass/uploadservice.scss:87
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `block in with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:115:in `with_frame'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/stack.rb:79:in `with_base'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/tree/root_node.rb:20:in `render'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/engine.rb:278:in `render'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:282:in `call'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:282:in `_process_changes'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:239:in `block in _wait_for_changes'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:222:in `loop'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:222:in `_wait_for_changes'
+/Users/gijs/.rvm/gems/ruby-2.1.2@global/gems/listen-2.7.11/lib/listen/listener.rb:318:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$horizontal-divider\".\A         on line 87 of /Users/gijs/Desktop/uploadservice-redesign/sass/uploadservice.scss\A \A 82:     padding-top: 20px;\A 83:   }\A 84:   .project:last-child {\A 85:     margin: 0 0 50px 0;\A 86:     padding: 0 0 30px 0;\A 87:     border-bottom: 1px solid $horizontal-divider;\A 88:   }\A 89: }\A 90: \A 91: #project-slug {\A 92: "; }
