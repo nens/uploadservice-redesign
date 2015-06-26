@@ -8939,12 +8939,67 @@ button.close {
   border-bottom: 1px solid #ecf0f1;
 }
 
+/* line 91, ../sass/_uploadservice.scss */
+#project-slug {
+  border-bottom: 1px solid #ecf0f1;
+  padding: 20px 0 20px 0;
+}
 /* line 94, ../sass/_uploadservice.scss */
-#project-slug .title .org {
-  color: #ECECEB;
+#project-slug .title {
+  padding: 0 0 0 20px;
   font-size: 2em;
+  color: #ecf0f1;
 }
 /* line 98, ../sass/_uploadservice.scss */
-#project-slug .title .project {
-  font-size: 2em;
+#project-slug .title .org a {
+  color: #ecf0f1;
+}
+/* line 101, ../sass/_uploadservice.scss */
+#project-slug .title .project a {
+  color: #027377;
+}
+
+/* line 111, ../sass/_uploadservice.scss */
+#project-details p.description {
+  font-size: 1.1em;
+  color: #95a5a6;
+  padding: 20px 0 0 10px;
+}
+/* line 116, ../sass/_uploadservice.scss */
+#project-details p.age {
+  padding: 0 0 0 10px;
+  font-style: italic;
+  color: #bdc3c7;
+}
+/* line 122, ../sass/_uploadservice.scss */
+#project-details .sidebar.affix {
+  position: fixed;
+  top: 20px;
+}
+/* line 126, ../sass/_uploadservice.scss */
+#project-details .sidebar.affix .sidenav, #project-details .sidebar.affix-bottom .sidenav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 130, ../sass/_uploadservice.scss */
+#project-details .sidebar .nav > li {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #027377;
+  background-color: transparent;
+  border-left: 1px solid #ecf0f1;
+}
+/* line 137, ../sass/_uploadservice.scss */
+#project-details .sidebar .nav > li > a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 1em;
+  margin: 3px 0 3px 0;
+  font-weight: 500;
+  color: #767676;
+}
+/* line 145, ../sass/_uploadservice.scss */
+#project-details .sidebar .nav .nav {
+  display: none;
+  padding-bottom: 10px;
 }

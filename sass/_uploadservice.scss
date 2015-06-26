@@ -89,14 +89,61 @@
 }
 
 #project-slug {
-
+  border-bottom: 1px solid $clouds;
+  padding: 20px 0 20px 0;
   .title {
-    .org {
-      color: $horizontal-divider;
-      font-size: 2em;
+    padding: 0 0 0 20px;
+    font-size: 2em;
+    color: $clouds;
+    .org a {
+      color: $clouds;
     }
-    .project {
-      font-size: 2em;
+    .project a {
+      color: $lizard-turquoise-dark;
     }
+  }
+}
+
+
+
+
+#project-details {
+  p.description {
+    font-size: 1.1em;
+    color: $concrete;
+    padding: 20px 0 0 10px;
+  }
+  p.age {
+    padding: 0 0 0 10px;
+
+    font-style: italic;
+    color: $silver;
+  }
+  .sidebar.affix {
+    position: fixed;
+    top: 20px;
+  }
+  .sidebar.affix .sidenav, .sidebar.affix-bottom .sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .sidebar .nav>li {
+    padding-left: 18px;
+    font-weight: 700;
+    color: $lizard-turquoise-dark;
+    background-color: transparent;
+    border-left: 1px solid $clouds;
+  }
+  .sidebar .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 1em;
+    margin: 3px 0 3px 0;
+    font-weight: 500;
+    color: #767676;
+  }
+  .sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
   }
 }
