@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rvm/gems/ruby-2.1.2@global/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -436,8 +436,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1435309242);
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1435309242#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1435309242) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1435309242) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1435309242) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1435309242#glyphicons_halflingsregular) format("svg");
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1435309638);
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1435309638#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1435309638) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1435309638) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1435309638) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1435309638#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -1786,7 +1786,7 @@ html {
 
 /* line 27, ../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -7928,7 +7928,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8066,7 +8066,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8896,44 +8896,55 @@ button.close {
 #projects .project p.project-title a {
   line-height: 2em;
   font-size: 2.2em;
+  font-weight: 500;
   color: #007276;
   text-decoration: none;
 }
-/* line 54, ../sass/uploadservice.scss */
+/* line 55, ../sass/uploadservice.scss */
 #projects .project p.project-description {
   font-size: 1.1em;
   color: #9D9D9D;
 }
-/* line 58, ../sass/uploadservice.scss */
+/* line 59, ../sass/uploadservice.scss */
 #projects .project p.project-age {
   font-size: 1.1em;
   font-style: italic;
   color: #D1D1D1;
 }
-/* line 64, ../sass/uploadservice.scss */
+/* line 65, ../sass/uploadservice.scss */
 #projects .stats {
   color: #007276;
   padding: 30px;
 }
-/* line 67, ../sass/uploadservice.scss */
+/* line 68, ../sass/uploadservice.scss */
 #projects .stats ul {
   display: inline;
 }
-/* line 69, ../sass/uploadservice.scss */
+/* line 70, ../sass/uploadservice.scss */
 #projects .stats ul li {
   display: inline;
   margin: 5px;
   font-weight: bold;
 }
-/* line 78, ../sass/uploadservice.scss */
+/* line 79, ../sass/uploadservice.scss */
 #projects .project:not(:first-child) {
   border-top: 1px solid #ECECEB;
   margin-top: 20px;
   padding-top: 20px;
 }
-/* line 83, ../sass/uploadservice.scss */
+/* line 84, ../sass/uploadservice.scss */
 #projects .project:last-child {
   margin: 0 0 50px 0;
   padding: 0 0 30px 0;
   border-bottom: 1px solid #ECECEB;
+}
+
+/* line 94, ../sass/uploadservice.scss */
+#project-slug .title .org {
+  color: #ECECEB;
+  font-size: 2em;
+}
+/* line 98, ../sass/uploadservice.scss */
+#project-slug .title .project {
+  font-size: 2em;
 }
