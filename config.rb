@@ -1,5 +1,5 @@
 require 'compass/import-once/activate'
-add_import_path "bower_compontents/twbs-bootstrap-sass/vendor/assets/stylesheets"
+add_import_path "bower_components/twbs-bootstrap-sass/assets/stylesheets"
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
