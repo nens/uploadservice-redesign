@@ -13,73 +13,85 @@
   margin: 20px;
 }
 /* line 13, ../sass/uploadservice.scss */
+#organisation .organisation-title {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #027377;
+}
+/* line 22, ../sass/uploadservice.scss */
 #organisation .details {
+  position: absolute;
+  top: 35px;
+  left: 140px;
   line-height: 20px;
   padding: 10px 0 5px 0;
 }
-/* line 18, ../sass/uploadservice.scss */
+/* line 29, ../sass/uploadservice.scss */
 #organisation .details ul li {
   font-size: .85em;
 }
-/* line 21, ../sass/uploadservice.scss */
+/* line 32, ../sass/uploadservice.scss */
 #organisation .details ul li a {
   color: #027377;
 }
 
-/* line 27, ../sass/uploadservice.scss */
+/* line 38, ../sass/uploadservice.scss */
 #projects .project {
   margin: 0 0 30px 0;
 }
-/* line 29, ../sass/uploadservice.scss */
+/* line 40, ../sass/uploadservice.scss */
 #projects .project p.project-title {
   margin-top: 20px;
 }
-/* line 31, ../sass/uploadservice.scss */
+/* line 42, ../sass/uploadservice.scss */
 #projects .project p.project-title .fa {
   color: #007276;
   font-size: 1.4em;
   margin: 0 5px 0 0;
 }
-/* line 37, ../sass/uploadservice.scss */
+/* line 48, ../sass/uploadservice.scss */
 #projects .project p.project-title a {
   line-height: 2em;
   font-size: 2.2em;
   color: #007276;
   text-decoration: none;
 }
-/* line 43, ../sass/uploadservice.scss */
+/* line 54, ../sass/uploadservice.scss */
 #projects .project p.project-description {
   font-size: 1.1em;
   color: #9D9D9D;
 }
-/* line 47, ../sass/uploadservice.scss */
+/* line 58, ../sass/uploadservice.scss */
 #projects .project p.project-age {
   font-size: 1.1em;
   font-style: italic;
   color: #D1D1D1;
 }
-/* line 53, ../sass/uploadservice.scss */
+/* line 64, ../sass/uploadservice.scss */
 #projects .stats {
   color: #007276;
   padding: 30px;
 }
-/* line 56, ../sass/uploadservice.scss */
+/* line 67, ../sass/uploadservice.scss */
 #projects .stats ul {
   display: inline;
 }
-/* line 58, ../sass/uploadservice.scss */
+/* line 69, ../sass/uploadservice.scss */
 #projects .stats ul li {
   display: inline;
   margin: 5px;
   font-weight: bold;
 }
-/* line 67, ../sass/uploadservice.scss */
+/* line 78, ../sass/uploadservice.scss */
 #projects .project:not(:first-child) {
   border-top: 1px solid #ECECEB;
   margin-top: 20px;
   padding-top: 20px;
 }
-/* line 72, ../sass/uploadservice.scss */
+/* line 83, ../sass/uploadservice.scss */
 #projects .project:last-child {
   margin: 0 0 50px 0;
   padding: 0 0 30px 0;
