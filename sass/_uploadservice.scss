@@ -16,7 +16,7 @@
     left: 140px;
     font-size: 2em;
     font-weight: bold;
-    color: #027377;
+    color: $lizard-turquoise-dark;
   }
 
   .details {
@@ -30,7 +30,7 @@
     font-size: .85em;
   }
   .details ul li a {
-    color: #027377;
+    color: $lizard-turquoise-dark;
   }
 }
 
@@ -40,7 +40,7 @@
     p.project-title {
       margin-top: 20px;
       .fa {
-        color: #007276;
+        color: $lizard-turquoise-dark;
         font-size: 1.4em;
         margin: 0 5px 0 0;
       }
@@ -48,21 +48,21 @@
     p.project-title a {
       line-height: 2em;
       font-size: 2.2em;
-      color: #007276;
+      color: $lizard-turquoise-dark;
       text-decoration: none;
     }
     p.project-description {
       font-size: 1.1em;
-      color: #9D9D9D;
+      color: $concrete;
     }
     p.project-age {
       font-size: 1.1em;
       font-style: italic;
-      color: #D1D1D1;
+      color: $silver;
     }
   }
   .stats {
-    color: #007276;
+    color: $lizard-turquoise-dark;
     padding: 30px;
     ul {
       display: inline;
@@ -76,14 +76,14 @@
   }
 
   .project:not(:first-child) {
-    border-top: 1px solid #ECECEB;
+    border-top: 1px solid $clouds;
     margin-top: 20px;
     padding-top: 20px;
   }
   .project:last-child {
     margin: 0 0 50px 0;
     padding: 0 0 30px 0;
-    border-bottom: 1px solid #ECECEB;
+    border-bottom: 1px solid $clouds;
   }
 }
 
