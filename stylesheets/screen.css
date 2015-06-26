@@ -8838,7 +8838,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../sass/_uploadservice.scss */
+/* line 1, ../sass/modules/_uploadservice.scss */
 #logo {
   position: relative;
   width: 200px;
@@ -8848,11 +8848,11 @@ button.close {
   background-size: 50%;
 }
 
-/* line 10, ../sass/_uploadservice.scss */
+/* line 10, ../sass/modules/_uploadservice.scss */
 #organisation {
   margin: 20px;
 }
-/* line 13, ../sass/_uploadservice.scss */
+/* line 13, ../sass/modules/_uploadservice.scss */
 #organisation .organisation-title {
   position: absolute;
   top: 0;
@@ -8861,7 +8861,7 @@ button.close {
   font-weight: bold;
   color: #027377;
 }
-/* line 22, ../sass/_uploadservice.scss */
+/* line 22, ../sass/modules/_uploadservice.scss */
 #organisation .details {
   position: absolute;
   top: 35px;
@@ -8869,30 +8869,30 @@ button.close {
   line-height: 20px;
   padding: 10px 0 5px 0;
 }
-/* line 29, ../sass/_uploadservice.scss */
+/* line 29, ../sass/modules/_uploadservice.scss */
 #organisation .details ul li {
   font-size: .85em;
 }
-/* line 32, ../sass/_uploadservice.scss */
+/* line 32, ../sass/modules/_uploadservice.scss */
 #organisation .details ul li a {
   color: #027377;
 }
 
-/* line 38, ../sass/_uploadservice.scss */
+/* line 38, ../sass/modules/_uploadservice.scss */
 #projects .project {
   margin: 0 0 30px 0;
 }
-/* line 40, ../sass/_uploadservice.scss */
+/* line 40, ../sass/modules/_uploadservice.scss */
 #projects .project p.project-title {
   margin-top: 20px;
 }
-/* line 42, ../sass/_uploadservice.scss */
+/* line 42, ../sass/modules/_uploadservice.scss */
 #projects .project p.project-title .fa {
   color: #027377;
   font-size: 1.4em;
   margin: 0 5px 0 0;
 }
-/* line 48, ../sass/_uploadservice.scss */
+/* line 48, ../sass/modules/_uploadservice.scss */
 #projects .project p.project-title a {
   line-height: 2em;
   font-size: 2.2em;
@@ -8900,51 +8900,51 @@ button.close {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 55, ../sass/_uploadservice.scss */
+/* line 55, ../sass/modules/_uploadservice.scss */
 #projects .project p.project-description {
   font-size: 1.1em;
   color: #95a5a6;
 }
-/* line 59, ../sass/_uploadservice.scss */
+/* line 59, ../sass/modules/_uploadservice.scss */
 #projects .project p.project-age {
   font-size: 1.1em;
   font-style: italic;
   color: #bdc3c7;
 }
-/* line 65, ../sass/_uploadservice.scss */
+/* line 65, ../sass/modules/_uploadservice.scss */
 #projects .stats {
   color: #027377;
   padding: 30px;
 }
-/* line 68, ../sass/_uploadservice.scss */
+/* line 68, ../sass/modules/_uploadservice.scss */
 #projects .stats ul {
   display: inline;
 }
-/* line 70, ../sass/_uploadservice.scss */
+/* line 70, ../sass/modules/_uploadservice.scss */
 #projects .stats ul li {
   display: inline;
   margin: 5px;
   font-weight: bold;
 }
-/* line 79, ../sass/_uploadservice.scss */
+/* line 79, ../sass/modules/_uploadservice.scss */
 #projects .project:not(:first-child) {
   border-top: 1px solid #ecf0f1;
   margin-top: 20px;
   padding-top: 20px;
 }
-/* line 84, ../sass/_uploadservice.scss */
+/* line 84, ../sass/modules/_uploadservice.scss */
 #projects .project:last-child {
   margin: 0 0 50px 0;
   padding: 0 0 30px 0;
   border-bottom: 1px solid #ecf0f1;
 }
 
-/* line 94, ../sass/_uploadservice.scss */
+/* line 94, ../sass/modules/_uploadservice.scss */
 #project-slug .title .org {
   color: #ECECEB;
   font-size: 2em;
 }
-/* line 98, ../sass/_uploadservice.scss */
+/* line 98, ../sass/modules/_uploadservice.scss */
 #project-slug .title .project {
   font-size: 2em;
 }
