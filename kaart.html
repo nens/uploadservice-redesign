@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,700">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="stylesheets/screen.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -48,7 +49,7 @@
                 </ul>
               </li>
             </ul>
-            <form class="navbar-form navbar-right" role="search">
+            <form class="navbar-form navbar-right" role="search" action="search-results.html">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Projecten doorzoeken...">
               </div>
@@ -73,20 +74,7 @@
       <div class="row">
         <div class="col-md-11">
           <div class="row">
-            <div class="col-md-12">
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi iure asperiores quos saepe omnis ipsa cupiditate quaerat est explicabo eius dolorem delectus, inventore placeat in aspernatur fuga assumenda voluptatibus.</p>
-              <p class="age">3 dagen geleden</p>
-            </div>
-          </div>
-          <div class="row quickbar well">
-            <div class="col-md-4 text-center">
-              6 <span class="text-muted">geplande metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              345 <span class="text-muted">ingevoerde metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              3 <span class="text-muted">uploaders</span>
+            <div class="col-md-12" id="map" style="height:600px;">
             </div>
           </div>
         </div>
@@ -123,9 +111,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.js"></script>
+    <script src="bower_components/leaflet/dist/leaflet.js"></script>
     <script>
     $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
+      $('[data-toggle="tooltip"]').tooltip();
+
+      var map = L.map('map').setView([52.5066,4.9649], 14);
+  		L.tileLayer('https://{s}.tiles.mapbox.com/v3/nelenschuurmans.iaa98k8k/{z}/{x}/{y}.png', {
+  			maxZoom: 18,
+  			attribution: 'Kaartdata &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> vrijwilligers, ' +
+  				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+  				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+  			id: 'examples.map-i875mjb7'
+  		}).addTo(map);
     });
     </script>
   </body>

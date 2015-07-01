@@ -48,7 +48,7 @@
                 </ul>
               </li>
             </ul>
-            <form class="navbar-form navbar-right" role="search">
+            <form class="navbar-form navbar-right" role="search" action="search-results.html">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Projecten doorzoeken...">
               </div>
@@ -78,15 +78,78 @@
               <p class="age">3 dagen geleden</p>
             </div>
           </div>
-          <div class="row quickbar well">
-            <div class="col-md-4 text-center">
-              6 <span class="text-muted">geplande metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              345 <span class="text-muted">ingevoerde metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              3 <span class="text-muted">uploaders</span>
+
+          <div class="row">
+            <div class="col-md-12 details-tabs">
+              <div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Dashboard</a></li>
+                  <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Werkzaamheden</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane fade in active" id="home">
+                    <div class="row quickbar well">
+                      <div class="col-md-4 text-center">
+                        6 <span class="text-muted">geplande metingen</span>
+                      </div>
+                      <div class="col-md-4 text-center">
+                        345 <span class="text-muted">ingevoerde metingen</span>
+                      </div>
+                      <div class="col-md-4 text-center">
+                        3 <span class="text-muted">uploaders</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="profile">
+                    <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th>Uitvoerder</th>
+                              <th>Werkzaamheid</th>
+                              <th>Geplande metingen</th>
+                              <th>Ingevoerde metingen</th>
+                              <th>Laatste upload</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row"><a href="">Aannemer</a></th>
+                              <td>Inpeiling Dwarsprofielen</td>
+                              <td>345</td>
+                              <td>0</td>
+                              <td data-toggle="tooltip" data-placement="top" title="mrt 24, 2015, 2:30 p.m.">3 dagen geleden</td>
+                            </tr>
+                            <tr>
+                              <th scope="row"><a href="">Aannemer</a></th>
+                              <td>Uitpeiling Dwarsprofielen</td>
+                              <td>349</td>
+                              <td>0</td>
+                              <td data-toggle="tooltip" data-placement="top" title="mrt 24, 2015, 2:30 p.m.">3 dagen geleden</td>
+                            </tr>
+                            <tr>
+                              <th scope="row"><a href="">HDSR2</a></th>
+                              <td>Inpeiling Dwarsprofielen</td>
+                              <td>345</td>
+                              <td>212</td>
+                              <td data-toggle="tooltip" data-placement="top" title="mrt 20, 2015, 2:30 p.m.">5 dagen geleden</td>
+                            </tr>
+                            <tr>
+                              <th scope="row"><a href="">Opdrachtgever</a></th>
+                              <td>Nader onderzoek waterbodemkwaliteit</td>
+                              <td>9</td>
+                              <td>0</td>
+                              <td data-toggle="tooltip" data-placement="top" title="mrt 12, 2015, 2:30 p.m.">8 dagen geleden</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+
+                </div>
+
+              </div>
             </div>
           </div>
         </div>

@@ -9013,3 +9013,7 @@ button.close {
 #project-details .sidebar a.active {
   background-color: #ecf0f1;
 }
+/* line 146, ../sass/modules/_project_manager_home.scss */
+#project-details .details-tabs {
+  margin: 20px 0 0 0;
+}
