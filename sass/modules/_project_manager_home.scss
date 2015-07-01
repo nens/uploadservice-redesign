@@ -81,6 +81,7 @@
 
 #project-slug {
   border-bottom: 1px solid $clouds;
+  margin-bottom: 25px;
   padding: 20px 0 20px 0;
   .title {
     padding: 0 0 0 20px;
@@ -96,9 +97,11 @@
 }
 
 
-
-
 #project-details {
+  .quickbar {
+    border: 1px solid $silver;
+    margin: 20px;
+  }
   p.description {
     font-size: 1.1em;
     color: $concrete;
@@ -123,18 +126,21 @@
     font-weight: 700;
     color: $lizard-turquoise-dark;
     background-color: transparent;
+    padding: 0 0 10px 0;
     border-left: 1px solid $clouds;
   }
   .sidebar .nav>li>a {
     display: block;
-    padding: 4px 20px;
+    padding: 15px 20px;
     font-size: 1em;
-    margin: 3px 0 3px 0;
     font-weight: 500;
     color: #767676;
   }
   .sidebar .nav .nav {
     display: none;
     padding-bottom: 10px;
+  }
+  .sidebar a.active {
+    background-color: $clouds;
   }
 }

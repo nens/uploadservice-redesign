@@ -40,11 +40,11 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Uw profiel</a></li>
+                  <li><a href="profiel.html">Uw profiel</a></li>
                   <li><a href="settings.html">Instellingen</a></li>
-                  <li><a href="#">Help</a></li>
+                  <li><a href="help.html">Help</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">Uitloggen</a></li>
+                  <li><a href="https://sso.lizard.net/accounts/login/?next=/">Uitloggen</a></li>
                 </ul>
               </li>
             </ul>
@@ -72,31 +72,45 @@
     <div class="container" id="project-details">
       <div class="row">
         <div class="col-md-9">
-
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi iure asperiores quos saepe omnis ipsa cupiditate quaerat est explicabo eius dolorem delectus, inventore placeat in aspernatur fuga assumenda voluptatibus.</p>
-          <p class="age">3 dagen geleden</p>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi iure asperiores quos saepe omnis ipsa cupiditate quaerat est explicabo eius dolorem delectus, inventore placeat in aspernatur fuga assumenda voluptatibus.</p>
+              <p class="age">3 dagen geleden</p>
+            </div>
+          </div>
+          <div class="row quickbar well">
+            <div class="col-md-4 text-center">
+              6 <span class="text-muted">geplande metingen</span>
+            </div>
+            <div class="col-md-4 text-center">
+              345 <span class="text-muted">ingevoerde metingen</span>
+            </div>
+            <div class="col-md-4 text-center">
+              3 <span class="text-muted">uploaders</span>
+            </div>
+          </div>
         </div>
         <div class="col-md-3" role="complementary">
-          <nav class="sidebar hidden-print affix-top" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+          <nav class="sidebar hidden-print">
             <ul class="nav sidenav">
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-tachometer"></i> &nbsp; dashboard</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-calendar"></i> &nbsp; planning</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-cogs"></i> &nbsp; configuratie</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-question-circle"></i> &nbsp; aanvragen <span class="badge">4x</span></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-globe"></i> &nbsp; kaart</a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-lg fa-share"></i> &nbsp; exporteren</a>
-                </li>
+              <li>
+                <a class="active" href="project.html"><i class="fa fa-lg fa-tachometer"></i> &nbsp; dashboard</a>
+              </li>
+              <li>
+                <a href="planning.html"><i class="fa fa-lg fa-calendar"></i> &nbsp; planning</a>
+              </li>
+              <li>
+                <a href="configuratie.html"><i class="fa fa-lg fa-cogs"></i> &nbsp; configuratie</a>
+              </li>
+              <li>
+                <a href="aanvragen.html"><i class="fa fa-lg fa-question-circle"></i> &nbsp; aanvragen <span class="badge">4x</span></a>
+              </li>
+              <li>
+                <a href="kaart.html"><i class="fa fa-lg fa-globe"></i> &nbsp; kaart</a>
+              </li>
+              <li>
+                <a href="exporteren.html"><i class="fa fa-lg fa-share"></i> &nbsp; exporteren</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -109,6 +123,10 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.js"></script>
-
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    </script>
   </body>
   </html>
