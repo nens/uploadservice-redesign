@@ -101,43 +101,61 @@
       </div>
     </div><!-- /.container -->
 
+
+
     <div class="container" id="projects">
-      <div class="row project">
-        <div class="col-md-9">
-          <p class="project-title"><i class="fa fa-star-o"></i>&nbsp;<a href="project.html">projectnaam</a></p>
-          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores similique, aliquid tenetur id hic ex tempore, error itaque, nobis magnam voluptas voluptates. Vitae magni est, sint, laudantium delectus ad.</p>
-          <p class="project-age">1 dag geleden</p>
+      <div>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Projecten</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Archief</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane fade in active" id="home">
+            <div class="row project">
+              <div class="col-md-9">
+                <p class="project-title"><i class="fa fa-star-o"></i>&nbsp;<a href="project.html">projectnaam</a></p>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores similique, aliquid tenetur id hic ex tempore, error itaque, nobis magnam voluptas voluptates. Vitae magni est, sint, laudantium delectus ad.</p>
+                <p class="project-age">1 dag geleden</p>
+              </div>
+              <div class="col-md-3 stats text-right">
+                <ul>
+                  <li>Totaal 6x</li>
+                  <li>Gereed 99%</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row project">
+              <div class="col-md-9">
+                <p class="project-title"><i class="fa fa-star-o"></i>&nbsp;<a href="project.html">projectnaam</a></p>
+                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores similique, aliquid tenetur id hic ex tempore, error itaque, nobis magnam voluptas voluptates. Vitae magni est, sint, laudantium delectus ad.</p>
+                <p class="project-age">3 dagen geleden</p>
+              </div>
+              <div class="col-md-3 stats text-right">
+                <ul>
+                  <li>Totaal 1x</li>
+                  <li>Gereed 4%</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-offset-5 col-md-2">
+                <a href="project-add.html"><button type="button" class="btn btn-primary btn-lg">+ Project toevoegen</button></a>
+              </div>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="profile">
+            <div id="calendar"></div>
+          </div>
+
         </div>
-        <div class="col-md-3 stats text-right">
-          <ul>
-            <li>Totaal 6x</li>
-            <li>Gereed 99%</li>
-          </ul>
-        </div>
+
       </div>
-      <div class="row project">
-        <div class="col-md-9">
-          <p class="project-title"><i class="fa fa-star-o"></i>&nbsp;<a href="project.html">projectnaam</a></p>
-          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus asperiores similique, aliquid tenetur id hic ex tempore, error itaque, nobis magnam voluptas voluptates. Vitae magni est, sint, laudantium delectus ad.</p>
-          <p class="project-age">3 dagen geleden</p>
-        </div>
-        <div class="col-md-3 stats text-right">
-          <ul>
-            <li>Totaal 1x</li>
-            <li>Gereed 4%</li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
 
-    <div class="container" id="add-project">
-      <div class="row">
-        <div class="col-md-offset-5 col-md-2">
-          <a href="project-add.html"><button type="button" class="btn btn-primary btn-lg">+ Project toevoegen</button></a>
-        </div>
-      </div>
-    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -146,9 +164,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.js"></script>
     <script src="bower_components/sweetalert/dist/sweetalert.min.js"></script>
+
     <script>
     $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
   </body>

@@ -85,6 +85,7 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                   <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Dashboard</a></li>
+                  <li role="presentation"><a href="#files" aria-controls="profile" role="tab" data-toggle="tab">Bestanden</a></li>
                   <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Werkzaamheden</a></li>
                 </ul>
 
@@ -103,8 +104,41 @@
                       </div>
                     </div>
                   </div>
+
+
+                  <div role="tabpanel" class="tab-pane fade" id="files">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Projectdocumenten</h3>
+                      </div>
+
+                      <!-- Table -->
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <th scope="row"><a href="#">Handleiding inwinning gegevens.doc</a> (1.9MB)</th>
+                            <td>
+                              <button class="btn btn-danger" type="submit" data-toggle="tooltip" data-placement="top" title="Verwijderen">
+                                <i class="fa fa-trash"></i>
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><a href="#">Metfile_Goed.doc</a> (5.9KB)</th>
+                            <td>
+                              <button class="btn btn-danger" type="submit" data-toggle="tooltip" data-placement="top" title="Verwijderen">
+                                <i class="fa fa-trash"></i>
+                              </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+
                   <div role="tabpanel" class="tab-pane fade" id="profile">
-                    <table class="table table-striped">
+                    <table class="table table-striped top-buffer">
                           <thead>
                             <tr>
                               <th>Uitvoerder</th>

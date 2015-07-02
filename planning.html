@@ -72,21 +72,46 @@
     <div class="container" id="project-details">
       <div class="row">
         <div class="col-md-11">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi iure asperiores quos saepe omnis ipsa cupiditate quaerat est explicabo eius dolorem delectus, inventore placeat in aspernatur fuga assumenda voluptatibus.</p>
-              <p class="age">3 dagen geleden</p>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Planning inpeiling watergang</h3>
+            </div>
+            <div class="panel-body">
+              <p>Het metingtype van deze werkzaamheid is <strong>Inpeiling Dwarsprofielen</strong>. Bij dit metingtype is het onder <a href="configuratie.html">Configuratie</a> in te stellen of het nodig is om vooraf locaties te plannen.</p>
+              <p>Metingen kunnen op twee manieren gepland worden:</p>
+              <ul class="list-group">
+                <li class="list-group-item">Door het uploaden van een punten-shapefile. Eerder geplande metingen worden verwijderd, tenzij er al een meting geüpload is. Al geüploade data blijft altijd bestaan.</li>
+                <li class="list-group-item">Door de werkzaamheid aan een andere werkzaamheid te koppelen. De locaties uit de andere werkzaamheid worden gekopieerd naar deze, voor zover de locatiecodes nog niet gebruikt worden in deze werkzaamheid. Als een onbekende code geüpload wordt, wordt ook in de andere werkzaamheid gekeken of de code daar bekend is, en zo ja dan wordt deze locatie overgenomen.</li>
+              </ul>
             </div>
           </div>
-          <div class="row quickbar well">
-            <div class="col-md-4 text-center">
-              6 <span class="text-muted">geplande metingen</span>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Planning middels Shapefile</h3>
             </div>
-            <div class="col-md-4 text-center">
-              345 <span class="text-muted">ingevoerde metingen</span>
+            <div class="panel-body alert alert-info">
+              <p>De locatiecodes moeten in de shapefile staan in het veld <strong>ID_DWP</strong>. Dit kan aangepast worden onder Configuratie.</p>
             </div>
-            <div class="col-md-4 text-center">
-              3 <span class="text-muted">uploaders</span>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="001">.dbf bestand</label>
+                  <input type="file" id="001">
+                </div>
+                <div class="form-group">
+                  <label for="002">.shp bestand</label>
+                  <input type="file" id="002">
+                </div>
+                <div class="form-group">
+                  <label for="003">.shx bestand</label>
+                  <input type="file" id="003">
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="right" title="" data-original-title="Shapefile opslaan">
+                    Opslaan
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

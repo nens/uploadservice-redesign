@@ -72,23 +72,40 @@
     <div class="container" id="project-details">
       <div class="row">
         <div class="col-md-11">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita excepturi iure asperiores quos saepe omnis ipsa cupiditate quaerat est explicabo eius dolorem delectus, inventore placeat in aspernatur fuga assumenda voluptatibus.</p>
-              <p class="age">3 dagen geleden</p>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Aanvragen Inpeiling watergang</h3>
             </div>
+            <div class="panel-body">
+              <button class="btn btn-default pull-right" type="submit" data-toggle="tooltip" data-placement="top" title="Klik hier voor een totaaloverzicht van alle afgesloten aanvragen voor dit project">
+                <i class="fa fa-clock-o"></i>&nbsp;&nbsp;Overzicht
+              </button>
+            </div>
+            <!-- Table -->
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                      <i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;Locatiecode laten vervallen
+                    </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                      <i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;Locatiecode verplaatsen
+                    </button>
+                  </td>
+                  <td>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+                      <i class="fa fa-arrow-circle-right"></i>&nbsp;&nbsp;Nieuwe of vervangende locatiecode
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="row quickbar well">
-            <div class="col-md-4 text-center">
-              6 <span class="text-muted">geplande metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              345 <span class="text-muted">ingevoerde metingen</span>
-            </div>
-            <div class="col-md-4 text-center">
-              3 <span class="text-muted">uploaders</span>
-            </div>
-          </div>
+
         </div>
         <div class="col-md-1" role="complementary">
           <nav class="sidebar hidden-print">
@@ -117,6 +134,125 @@
       </div>
     </div>
 
+    <!-- Modals -->
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Locatiecode laten vervallen</h4>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="001">Locatiecode</label>
+                      <input type="text" class="form-control" id="001" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="003">Motivatie</label>
+                      <textarea class="form-control" id="003" rows="3"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Locatiecode verplaatsen</h4>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="001">Locatiecode</label>
+                      <input type="text" class="form-control" id="001" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="002">X-coordinaat (RD)</label>
+                      <input type="text" class="form-control" id="002" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="004">Y-coordinaat (RD)</label>
+                      <input type="text" class="form-control" id="004" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="003">Motivatie</label>
+                      <textarea class="form-control" id="003" rows="3"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Nieuwe of vervangende locatiecode</h4>
+          </div>
+          <div class="modal-body">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="001">Locatiecode</label>
+                      <input type="text" class="form-control" id="001" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="005">Oude locatiecode</label>
+                      <input type="text" class="form-control" id="005" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="002">X-coordinaat (RD)</label>
+                      <input type="text" class="form-control" id="002" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="004">Y-coordinaat (RD)</label>
+                      <input type="text" class="form-control" id="004" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label for="003">Motivatie</label>
+                      <textarea class="form-control" id="003" rows="3"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
